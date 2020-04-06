@@ -1,0 +1,31 @@
+#Thu Jan 30 13:02:15 EET 2020
+/dual_otu2_multiprotocol_otu2_mxp//com.parasoft.xtest.checkers.api.cpp.options.advanced.options=
+/dual_otu2_multiprotocol_otu2_mxp//com.parasoft.xtest.checkers.api.cpp.options.cdt.configuration=CPPTEST_USE_ACTIVE_CONFIG
+/dual_otu2_multiprotocol_otu2_mxp//com.parasoft.xtest.checkers.api.cpp.options.compiler.command.c.win32.x86=nios2-elf-gcc-4.9.2
+/dual_otu2_multiprotocol_otu2_mxp//com.parasoft.xtest.checkers.api.cpp.options.compiler.command.cpp.win32.x86=nios2-elf-g++
+/dual_otu2_multiprotocol_otu2_mxp//com.parasoft.xtest.checkers.api.cpp.options.compiler.family.win32.x86=gcc_4_9
+/dual_otu2_multiprotocol_otu2_mxp//com.parasoft.xtest.checkers.api.cpp.options.compiler.options.win32.x86=${cpptest\:original_options} -DPARASOFT_CPPTEST
+/dual_otu2_multiprotocol_otu2_mxp//com.parasoft.xtest.checkers.api.cpp.options.connected.6x.projects=
+/dual_otu2_multiprotocol_otu2_mxp//com.parasoft.xtest.checkers.api.cpp.options.dependency.files.paths=${project_loc}/Makefile
+/dual_otu2_multiprotocol_otu2_mxp//com.parasoft.xtest.checkers.api.cpp.options.dsp.env.var.mode=ENV_PATCH_PREPEND_MODE
+/dual_otu2_multiprotocol_otu2_mxp//com.parasoft.xtest.checkers.api.cpp.options.edg.multibyte.chars.is.source.handling=AUTO
+/dual_otu2_multiprotocol_otu2_mxp//com.parasoft.xtest.checkers.api.cpp.options.evc.env.var.mode=ENV_PATCH_PREPEND_MODE
+/dual_otu2_multiprotocol_otu2_mxp//com.parasoft.xtest.checkers.api.cpp.options.extractor.id=make_extractor_id
+/dual_otu2_multiprotocol_otu2_mxp//com.parasoft.xtest.checkers.api.cpp.options.linker.command.win32.x86=nios2-elf-g++
+/dual_otu2_multiprotocol_otu2_mxp//com.parasoft.xtest.checkers.api.cpp.options.linker.options.win32.x86=${cpptest\:original_options}
+/dual_otu2_multiprotocol_otu2_mxp//com.parasoft.xtest.checkers.api.cpp.options.make.command.line=make -i -B CXX\=${CPPTEST_SCAN} CC\=${CPPTEST_SCAN} LD\=${CPPTEST_SCAN}
+/dual_otu2_multiprotocol_otu2_mxp//com.parasoft.xtest.checkers.api.cpp.options.make.scan.hash.code.validation=true
+/dual_otu2_multiprotocol_otu2_mxp//com.parasoft.xtest.checkers.api.cpp.options.make.working.dir=${project_loc}
+/dual_otu2_multiprotocol_otu2_mxp//com.parasoft.xtest.checkers.api.cpp.options.make_always_build=false
+/dual_otu2_multiprotocol_otu2_mxp//com.parasoft.xtest.checkers.api.cpp.options.ode_auto_scan_mode=on_changes
+/dual_otu2_multiprotocol_otu2_mxp//com.parasoft.xtest.checkers.api.cpp.options.ode_delete_bdf_postaction=false
+/dual_otu2_multiprotocol_otu2_mxp//com.parasoft.xtest.checkers.api.cpp.options.ode_incremental_build=false
+/dual_otu2_multiprotocol_otu2_mxp//com.parasoft.xtest.checkers.api.cpp.options.ode_options_dir=${project_loc}/cpptestscan.bdf
+/dual_otu2_multiprotocol_otu2_mxp//com.parasoft.xtest.checkers.api.cpp.options.run_orig_cmd_for_parallel_proj_bdf=true
+/dual_otu2_multiprotocol_otu2_mxp//com.parasoft.xtest.checkers.api.cpp.options.runtime.location=${cpptest\:engine_loc}/runtime
+/dual_otu2_multiprotocol_otu2_mxp//com.parasoft.xtest.checkers.api.cpp.options.synchronize_with_project_settings=true
+/dual_otu2_multiprotocol_otu2_mxp//com.parasoft.xtest.checkers.api.cpp.options.test.case.location.patterns=*
+/dual_otu2_multiprotocol_otu2_mxp//com.parasoft.xtest.checkers.api.cpp.options.test.ware.location=${workspace_loc}/.cpptest/${project_name}
+/dual_otu2_multiprotocol_otu2_mxp//com.parasoft.xtest.checkers.api.cpp.options.vc71.configuration=CPPTEST_USE_ACTIVE_CONFIG
+/dual_otu2_multiprotocol_otu2_mxp//com.parasoft.xtest.checkers.api.cpp.options.working.dir=${project_loc}
+project.path=/dual_otu2_multiprotocol_otu2_mxp

@@ -1,0 +1,1051 @@
+/*
+ * kurs_sections.h
+ *
+ *  Created on: March 21, 2019
+ *      Author: Clara
+ */
+
+#ifndef KURS_CONSTANTS_H_
+#define KURS_CONSTANTS_H_
+
+/* section 1 params*/
+#define	ID_1_PID					0x01000000
+#define	ID_1_SERIAL_NUM				0x01000001
+#define	ID_1_HW_NUM					0x01000002
+#define	ID_1_SW_NUM					0x01000003
+#define	ID_1_SW_NUM_FPGA			0x01000004
+/*Line 1 port parameters */
+#define ID_1_LN1_DESTINATION		0x01000005
+#define	ID_1_LN1_SFP_VN				0x01000006
+#define	ID_1_LN1_SFP_PN				0x01000007
+#define	ID_1_LN1_SFP_SN				0x01000008
+/*Line 2 port parameters */
+#define ID_1_LN2_DESTINATION		0x01000009
+#define	ID_1_LN2_SFP_VN				0x0100000A
+#define	ID_1_LN2_SFP_PN				0x0100000B
+#define	ID_1_LN2_SFP_SN				0x0100000C
+
+/*Client 1 port parameters */
+#define ID_1_CL1_DESTINATION		0x0100000D
+#define	ID_1_CL1_SFP_VN				0x0100000E
+#define	ID_1_CL1_SFP_PN				0x0100000F
+#define	ID_1_CL1_SFP_SN				0x01000010
+/*Client 2 port parameters */
+#define ID_1_CL2_DESTINATION		0x01000011
+#define	ID_1_CL2_SFP_VN				0x01000012
+#define	ID_1_CL2_SFP_PN				0x01000013
+#define	ID_1_CL2_SFP_SN				0x01000014
+/*Client 3 port parameters */
+#define ID_1_CL3_DESTINATION		0x01000015
+#define	ID_1_CL3_SFP_VN				0x01000016
+#define	ID_1_CL3_SFP_PN				0x01000017
+#define	ID_1_CL3_SFP_SN				0x01000018
+/*Client 4 port parameters */
+#define ID_1_CL4_DESTINATION		0x01000019
+#define	ID_1_CL4_SFP_VN				0x0100001A
+#define	ID_1_CL4_SFP_PN				0x0100001B
+#define	ID_1_CL4_SFP_SN				0x0100001C
+/*Client 5 port parameters */
+#define ID_1_CL5_DESTINATION		0x0100001D
+#define	ID_1_CL5_SFP_VN				0x0100001E
+#define	ID_1_CL5_SFP_PN				0x0100001F
+#define	ID_1_CL5_SFP_SN				0x01000020
+/*Client 6 port parameters */
+#define ID_1_CL6_DESTINATION		0x01000021
+#define	ID_1_CL6_SFP_VN				0x01000022
+#define	ID_1_CL6_SFP_PN				0x01000023
+#define	ID_1_CL6_SFP_SN				0x01000024
+/*Client 7 port parameters */
+#define ID_1_CL7_DESTINATION		0x01000025
+#define	ID_1_CL7_SFP_VN				0x01000026
+#define	ID_1_CL7_SFP_PN				0x01000027
+#define	ID_1_CL7_SFP_SN				0x01000028
+/*Client 8 port parameters */
+#define ID_1_CL8_DESTINATION		0x01000029
+#define	ID_1_CL8_SFP_VN				0x0100002A
+#define	ID_1_CL8_SFP_PN				0x0100002B
+#define	ID_1_CL8_SFP_SN				0x0100002C
+/*Client 9 port parameters */
+#define ID_1_CL9_DESTINATION		0x0100002D
+#define	ID_1_CL9_SFP_VN				0x0100002E
+#define	ID_1_CL9_SFP_PN				0x0100002F
+#define	ID_1_CL9_SFP_SN				0x01000030
+/*Client 10 port parameters */
+#define ID_1_CL10_DESTINATION		0x01000031
+#define	ID_1_CL10_SFP_VN			0x01000032
+#define	ID_1_CL10_SFP_PN			0x01000033
+#define	ID_1_CL10_SFP_SN			0x01000034
+/*Client 11 port parameters */
+#define ID_1_CL11_DESTINATION		0x01000035
+#define	ID_1_CL11_SFP_VN			0x01000036
+#define	ID_1_CL11_SFP_PN			0x01000037
+#define	ID_1_CL11_SFP_SN			0x01000038
+/*Client 12 port parameters */
+#define ID_1_CL12_DESTINATION		0x01000039
+#define	ID_1_CL12_SFP_VN			0x0100003A
+#define	ID_1_CL12_SFP_PN			0x0100003B
+#define	ID_1_CL12_SFP_SN			0x0100003C
+/*Client 13 port parameters */
+#define ID_1_CL13_DESTINATION		0x0100003D
+#define	ID_1_CL13_SFP_VN			0x0100003E
+#define	ID_1_CL13_SFP_PN			0x0100003F
+#define	ID_1_CL13_SFP_SN			0x01000040
+/*Client 14 port parameters */
+#define ID_1_CL14_DESTINATION		0x01000041
+#define	ID_1_CL14_SFP_VN			0x01000042
+#define	ID_1_CL14_SFP_PN			0x01000043
+#define	ID_1_CL14_SFP_SN			0x01000044
+/*Client 15 port parameters */
+#define ID_1_CL15_DESTINATION		0x01000045
+#define	ID_1_CL15_SFP_VN			0x01000046
+#define	ID_1_CL15_SFP_PN			0x01000047
+#define	ID_1_CL15_SFP_SN			0x01000048
+/*Client 16 port parameters */
+#define ID_1_CL16_DESTINATION		0x01000049
+#define	ID_1_CL16_SFP_VN			0x0100004A
+#define	ID_1_CL16_SFP_PN			0x0100004B
+#define	ID_1_CL16_SFP_SN			0x0100004C
+
+/* section 2 params*/
+#define ID_2_TIME    				0x01010000
+#define ID_2_ALARM1					0x01010001
+#define ID_2_ALARM2					0x01010002
+#define	ID_2_BLOCK_COLOR			0x01010003
+#define	ID_2_BLOCK_STATE			0x01010004
+#define ID_2_BLOCK_TEMP   			0x01010005
+
+#define ID_2_CL1_PIN   				0x01010006
+#define ID_2_CL2_PIN   				0x01010007
+#define ID_2_CL3_PIN   				0x01010008
+#define ID_2_CL4_PIN   				0x01010009
+#define ID_2_CL5_PIN   				0x0101000A
+#define ID_2_CL6_PIN   				0x0101000B
+#define ID_2_CL7_PIN   				0x0101000C
+#define ID_2_CL8_PIN   				0x0101000D
+#define ID_2_CL9_PIN   				0x0101000E
+#define ID_2_CL10_PIN   			0x0101000F
+#define ID_2_CL11_PIN   			0x01010010
+#define ID_2_CL12_PIN   			0x01010011
+#define ID_2_CL13_PIN   			0x01010012
+#define ID_2_CL14_PIN   			0x01010013
+#define ID_2_CL15_PIN   			0x01010014
+#define ID_2_CL16_PIN   			0x01010015
+/*LINES PIN*/
+#define ID_2_LN1_PIN   				0x01010016
+#define ID_2_LN2_PIN   				0x01010017
+
+/*CLIENTS POUT*/
+#define ID_2_CL1_POUT   			0x01010018
+#define ID_2_CL2_POUT   			0x01010019
+#define ID_2_CL3_POUT   			0x0101001A
+#define ID_2_CL4_POUT   			0x0101001B
+#define ID_2_CL5_POUT   			0x0101001C
+#define ID_2_CL6_POUT   			0x0101001D
+#define ID_2_CL7_POUT   			0x0101001E
+#define ID_2_CL8_POUT   			0x0101001F
+#define ID_2_CL9_POUT   			0x01010020
+#define ID_2_CL10_POUT   			0x01010021
+#define ID_2_CL11_POUT   			0x01010022
+#define ID_2_CL12_POUT   			0x01010023
+#define ID_2_CL13_POUT   			0x01010024
+#define ID_2_CL14_POUT   			0x01010025
+#define ID_2_CL15_POUT   			0x01010026
+#define ID_2_CL16_POUT   			0x01010027
+/*LINES POUT*/
+#define ID_2_LN1_POUT   			0x01010028
+#define ID_2_LN2_POUT   			0x01010029
+/*CLIENTS OTU ALARMS*/
+#define ID_2_CL1_OTU_ALRMS   		0x0101002A
+#define ID_2_CL2_OTU_ALRMS   		0x0101002B
+#define ID_2_CL3_OTU_ALRMS   		0x0101002C
+#define ID_2_CL4_OTU_ALRMS   		0x0101002D
+#define ID_2_CL5_OTU_ALRMS   		0x01010092
+#define ID_2_CL6_OTU_ALRMS   		0x01010093
+#define ID_2_CL7_OTU_ALRMS   		0x01010094
+#define ID_2_CL8_OTU_ALRMS   		0x01010095
+#define ID_2_CL9_OTU_ALRMS   		0x01010096
+#define ID_2_CL10_OTU_ALRMS   		0x01010097
+#define ID_2_CL11_OTU_ALRMS   		0x01010098
+#define ID_2_CL12_OTU_ALRMS   		0x01010099
+#define ID_2_CL13_OTU_ALRMS   		0x0101009A
+#define ID_2_CL14_OTU_ALRMS   		0x0101009B
+#define ID_2_CL15_OTU_ALRMS   		0x0101009C
+#define ID_2_CL16_OTU_ALRMS   		0x0101009D
+/*LINES OTU ALARMS*/
+#define ID_2_LN1_OTU_ALRMS   		0x0101002E
+#define ID_2_LN2_OTU_ALRMS   		0x0101002F
+
+/*LINES ODU ALARMS*/
+#define ID_2_LN1_ODU_ALRMS   		0x01010030
+#define ID_2_LN2_ODU_ALRMS   		0x01010031
+
+/*LINES PREFECBER*/
+#define ID_2_LN1_PREFECBER 			0x01010032
+#define ID_2_LN2_PREFECBER 			0x01010033
+
+/*LINES POSTFECBER*/
+#define ID_2_LN1_POSTFECBER 		0x01010034
+#define ID_2_LN2_POSTFECBER 		0x01010035
+
+/*LINES FEC LOAD*/
+#define ID_2_LN1_FEC_LOAD  			0x01010036
+#define ID_2_LN2_FEC_LOAD  			0x01010037
+
+/*CLIENTS SDH ALARMS*/
+#define ID_2_CL1_SDH_ALRMS          0x01010038
+#define ID_2_CL2_SDH_ALRMS          0x01010039
+#define ID_2_CL3_SDH_ALRMS          0x0101003A
+#define ID_2_CL4_SDH_ALRMS          0x0101003B
+#define ID_2_CL5_SDH_ALRMS          0x0101003C
+#define ID_2_CL6_SDH_ALRMS          0x0101003D
+#define ID_2_CL7_SDH_ALRMS          0x0101003E
+#define ID_2_CL8_SDH_ALRMS          0x0101003F
+#define ID_2_CL9_SDH_ALRMS          0x01010040
+#define ID_2_CL10_SDH_ALRMS         0x01010041
+#define ID_2_CL11_SDH_ALRMS         0x01010042
+#define ID_2_CL12_SDH_ALRMS         0x01010043
+#define ID_2_CL13_SDH_ALRMS         0x01010044
+#define ID_2_CL14_SDH_ALRMS         0x01010045
+#define ID_2_CL15_SDH_ALRMS         0x01010046
+#define ID_2_CL16_SDH_ALRMS         0x01010047
+
+/*CLIENTS ETHERNET ALARMS*/
+#define ID_2_CL1_ETH_ALRMS          0x01010048
+#define ID_2_CL2_ETH_ALRMS          0x01010049
+#define ID_2_CL3_ETH_ALRMS          0x0101004A
+#define ID_2_CL4_ETH_ALRMS          0x0101004B
+#define ID_2_CL5_ETH_ALRMS          0x0101004C
+#define ID_2_CL6_ETH_ALRMS          0x0101004D
+#define ID_2_CL7_ETH_ALRMS          0x0101004E
+#define ID_2_CL8_ETH_ALRMS          0x0101004F
+#define ID_2_CL9_ETH_ALRMS          0x01010050
+#define ID_2_CL10_ETH_ALRMS         0x01010051
+#define ID_2_CL11_ETH_ALRMS         0x01010052
+#define ID_2_CL12_ETH_ALRMS         0x01010053
+#define ID_2_CL13_ETH_ALRMS         0x01010054
+#define ID_2_CL14_ETH_ALRMS         0x01010055
+#define ID_2_CL15_ETH_ALRMS         0x01010056
+#define ID_2_CL16_ETH_ALRMS         0x01010057
+
+/*CLIENTS SFP STATE*/
+#define ID_2_CL1_SFP_STATE          0x01010058
+#define ID_2_CL2_SFP_STATE          0x01010059
+#define ID_2_CL3_SFP_STATE          0x0101005A
+#define ID_2_CL4_SFP_STATE          0x0101005B
+#define ID_2_CL5_SFP_STATE          0x0101005C
+#define ID_2_CL6_SFP_STATE          0x0101005D
+#define ID_2_CL7_SFP_STATE          0x0101005E
+#define ID_2_CL8_SFP_STATE          0x0101005F
+#define ID_2_CL9_SFP_STATE          0x01010060
+#define ID_2_CL10_SFP_STATE         0x01010061
+#define ID_2_CL11_SFP_STATE         0x01010062
+#define ID_2_CL12_SFP_STATE         0x01010063
+#define ID_2_CL13_SFP_STATE         0x01010064
+#define ID_2_CL14_SFP_STATE         0x01010065
+#define ID_2_CL15_SFP_STATE         0x01010066
+#define ID_2_CL16_SFP_STATE         0x01010067
+/*LINES SFP STATE*/
+#define ID_2_LN1_SFP_STATE   		0x01010068
+#define ID_2_LN2_SFP_STATE   		0x01010069
+
+/*CLIENTS SFP TEMPERATRURE*/
+#define ID_2_CL1_SFP_TEMP           0x0101006A
+#define ID_2_CL2_SFP_TEMP           0x0101006B
+#define ID_2_CL3_SFP_TEMP           0x0101006C
+#define ID_2_CL4_SFP_TEMP           0x0101006D
+#define ID_2_CL5_SFP_TEMP           0x0101006E
+#define ID_2_CL6_SFP_TEMP           0x0101006F
+#define ID_2_CL7_SFP_TEMP           0x01010070
+#define ID_2_CL8_SFP_TEMP           0x01010071
+#define ID_2_CL9_SFP_TEMP           0x01010072
+#define ID_2_CL10_SFP_TEMP          0x01010073
+#define ID_2_CL11_SFP_TEMP          0x01010074
+#define ID_2_CL12_SFP_TEMP          0x01010075
+#define ID_2_CL13_SFP_TEMP          0x01010076
+#define ID_2_CL14_SFP_TEMP          0x01010077
+#define ID_2_CL15_SFP_TEMP          0x01010078
+#define ID_2_CL16_SFP_TEMP          0x01010079
+/*LINES SFP TEMPERATRURE*/
+#define ID_2_LN1_SFP_TEMP   		0x0101007A
+#define ID_2_LN2_SFP_TEMP   		0x0101007B
+
+/*CLEINTS ALS STATE*/
+#define ID_2_CL1_ALS_STATE          0x0101007C
+#define ID_2_CL2_ALS_STATE          0x0101007D
+#define ID_2_CL3_ALS_STATE          0x0101007E
+#define ID_2_CL4_ALS_STATE          0x0101007F
+#define ID_2_CL5_ALS_STATE          0x01010080
+#define ID_2_CL6_ALS_STATE          0x01010081
+#define ID_2_CL7_ALS_STATE          0x01010082
+#define ID_2_CL8_ALS_STATE          0x01010083
+#define ID_2_CL9_ALS_STATE          0x01010084
+#define ID_2_CL10_ALS_STATE         0x01010085
+#define ID_2_CL11_ALS_STATE         0x01010086
+#define ID_2_CL12_ALS_STATE         0x01010087
+#define ID_2_CL13_ALS_STATE         0x01010088
+#define ID_2_CL14_ALS_STATE         0x01010089
+#define ID_2_CL15_ALS_STATE         0x0101008A
+#define ID_2_CL16_ALS_STATE         0x0101008B
+/*LINES ALS STATE*/
+#define ID_2_LN1_ALS_STATE   		0x0101008C
+#define ID_2_LN2_ALS_STATE   		0x0101008D
+
+/*APS parameters UID*/
+#define ID_2_AGG_APS_REQUEST  		0x0101008E
+#define ID_2_AGG_APS_SIGNAL  		0x0101008F
+
+
+
+/* section 3 params*/
+#define ID_3_RESET    				0x01020000
+/*Clients SET_STATE*/
+#define ID_3_CL1_SET_STATE    		0x01020001
+#define ID_3_CL2_SET_STATE    		0x01020002
+#define ID_3_CL3_SET_STATE    		0x01020003
+#define ID_3_CL4_SET_STATE    		0x01020004
+#define ID_3_CL5_SET_STATE    		0x01020005
+#define ID_3_CL6_SET_STATE    		0x01020006
+#define ID_3_CL7_SET_STATE    		0x01020007
+#define ID_3_CL8_SET_STATE    		0x01020008
+#define ID_3_CL9_SET_STATE    		0x01020009
+#define ID_3_CL10_SET_STATE    		0x0102000A
+#define ID_3_CL11_SET_STATE    		0x0102000B
+#define ID_3_CL12_SET_STATE    		0x0102000C
+#define ID_3_CL13_SET_STATE    		0x0102000D
+#define ID_3_CL14_SET_STATE    		0x0102000E
+#define ID_3_CL15_SET_STATE    		0x0102000F
+#define ID_3_CL16_SET_STATE    		0x01020010
+/*Lines SET_STATE*/
+#define ID_3_LN1_SET_STATE    		0x01020011
+#define ID_3_LN2_SET_STATE    		0x01020012
+
+/*Clients ENABLE TX*/
+#define ID_3_CL1_ENABLE_TX          0x01020013
+#define ID_3_CL2_ENABLE_TX          0x01020014
+#define ID_3_CL3_ENABLE_TX          0x01020015
+#define ID_3_CL4_ENABLE_TX          0x01020016
+#define ID_3_CL5_ENABLE_TX          0x01020017
+#define ID_3_CL6_ENABLE_TX          0x01020018
+#define ID_3_CL7_ENABLE_TX          0x01020019
+#define ID_3_CL8_ENABLE_TX          0x0102001A
+#define ID_3_CL9_ENABLE_TX          0x0102001B
+#define ID_3_CL10_ENABLE_TX         0x0102001C
+#define ID_3_CL11_ENABLE_TX         0x0102001D
+#define ID_3_CL12_ENABLE_TX         0x0102001E
+#define ID_3_CL13_ENABLE_TX         0x0102001F
+#define ID_3_CL14_ENABLE_TX         0x01020020
+#define ID_3_CL15_ENABLE_TX         0x01020021
+#define ID_3_CL16_ENABLE_TX         0x01020022
+/*Lines ENABLE TX*/
+#define ID_3_LN1_ENABLE_TX    		0x01020023
+#define ID_3_LN2_ENABLE_TX    		0x01020024
+
+/*Clients SET LOOP BACK*/
+#define ID_3_CL1_SET_LOOPBACK       0x01020025
+#define ID_3_CL2_SET_LOOPBACK       0x01020026
+#define ID_3_CL3_SET_LOOPBACK       0x01020027
+#define ID_3_CL4_SET_LOOPBACK       0x01020028
+#define ID_3_CL5_SET_LOOPBACK       0x01020029
+#define ID_3_CL6_SET_LOOPBACK       0x0102002A
+#define ID_3_CL7_SET_LOOPBACK       0x0102002B
+#define ID_3_CL8_SET_LOOPBACK       0x0102002C
+#define ID_3_CL9_SET_LOOPBACK       0x0102002D
+#define ID_3_CL10_SET_LOOPBACK      0x0102002E
+#define ID_3_CL11_SET_LOOPBACK      0x0102002F
+#define ID_3_CL12_SET_LOOPBACK      0x01020030
+#define ID_3_CL13_SET_LOOPBACK      0x01020031
+#define ID_3_CL14_SET_LOOPBACK      0x01020032
+#define ID_3_CL15_SET_LOOPBACK      0x01020033
+#define ID_3_CL16_SET_LOOPBACK      0x01020034
+/*Lines SET LOOP BACK*/
+#define ID_3_LN1_SET_LOOPBACK    	0x01020035
+#define ID_3_LN2_SET_LOOPBACK    	0x01020036
+
+/*Clients Set ALS Mode*/
+#define ID_3_CL1_SET_ALS_MODE       0x01020037
+#define ID_3_CL2_SET_ALS_MODE 		0x01020038
+#define ID_3_CL3_SET_ALS_MODE       0x01020039
+#define ID_3_CL4_SET_ALS_MODE       0x0102003A
+#define ID_3_CL5_SET_ALS_MODE       0x0102003B
+#define ID_3_CL6_SET_ALS_MODE       0x0102003C
+#define ID_3_CL7_SET_ALS_MODE       0x0102003D
+#define ID_3_CL8_SET_ALS_MODE       0x0102003E
+#define ID_3_CL9_SET_ALS_MODE       0x0102003F
+#define ID_3_CL10_SET_ALS_MODE      0x01020040
+#define ID_3_CL11_SET_ALS_MODE      0x01020041
+#define ID_3_CL12_SET_ALS_MODE      0x01020042
+#define ID_3_CL13_SET_ALS_MODE      0x01020043
+#define ID_3_CL14_SET_ALS_MODE      0x01020044
+#define ID_3_CL15_SET_ALS_MODE      0x01020045
+#define ID_3_CL16_SET_ALS_MODE      0x01020046
+/*Lines Set ALS Mode*/
+#define ID_3_LN1_SET_ALS_MODE    	0x01020047
+#define ID_3_LN2_SET_ALS_MODE    	0x01020048
+
+/*Clients SFP Thresholds Reset */
+#define ID_3_CL1_SFP_THRS_RESET     0x01020049
+#define ID_3_CL2_SFP_THRS_RESET     0x0102004A
+#define ID_3_CL3_SFP_THRS_RESET     0x0102004B
+#define ID_3_CL4_SFP_THRS_RESET     0x0102004C
+#define ID_3_CL5_SFP_THRS_RESET     0x0102004D
+#define ID_3_CL6_SFP_THRS_RESET     0x0102004E
+#define ID_3_CL7_SFP_THRS_RESET     0x0102004F
+#define ID_3_CL8_SFP_THRS_RESET     0x01020050
+#define ID_3_CL9_SFP_THRS_RESET     0x01020051
+#define ID_3_CL10_SFP_THRS_RESET    0x01020052
+#define ID_3_CL11_SFP_THRS_RESET    0x01020053
+#define ID_3_CL12_SFP_THRS_RESET    0x01020054
+#define ID_3_CL13_SFP_THRS_RESET    0x01020055
+#define ID_3_CL14_SFP_THRS_RESET    0x01020056
+#define ID_3_CL15_SFP_THRS_RESET    0x01020057
+#define ID_3_CL16_SFP_THRS_RESET    0x01020058
+/*Lines SFP Thresholds Reset */
+#define ID_3_LN1_SFP_THRS_RESET     0x01020059
+#define ID_3_LN2_SFP_THRS_RESET     0x0102005A
+
+/*Clients SET DATA TYPE*/
+#define ID_3_CL1_SET_DATA_TYPE      0x01020088
+#define ID_3_CL2_SET_DATA_TYPE      0x0102005B
+#define ID_3_CL3_SET_DATA_TYPE      0x0102005C
+#define ID_3_CL4_SET_DATA_TYPE      0x0102005D
+#define ID_3_CL5_SET_DATA_TYPE      0x0102005E
+#define ID_3_CL6_SET_DATA_TYPE      0x0102005F
+#define ID_3_CL7_SET_DATA_TYPE      0x01020060
+#define ID_3_CL8_SET_DATA_TYPE      0x01020061
+#define ID_3_CL9_SET_DATA_TYPE      0x01020062
+#define ID_3_CL10_SET_DATA_TYPE     0x01020063
+#define ID_3_CL11_SET_DATA_TYPE     0x01020064
+#define ID_3_CL12_SET_DATA_TYPE     0x01020065
+#define ID_3_CL13_SET_DATA_TYPE     0x01020066
+#define ID_3_CL14_SET_DATA_TYPE     0x01020067
+#define ID_3_CL15_SET_DATA_TYPE     0x01020068
+#define ID_3_CL16_SET_DATA_TYPE     0x01020069
+/*Reset all counters*/
+#define ID_3_RESET_ALL_COUNTERS		0x0102006B
+/*Clients Reset counters*/
+#define ID_3_CL1_RESET_COUNTERS    	0x0102006C
+#define ID_3_CL2_RESET_COUNTERS    	0x0102006D
+#define ID_3_CL3_RESET_COUNTERS    	0x0102006E
+#define ID_3_CL4_RESET_COUNTERS    	0x0102006F
+#define ID_3_CL5_RESET_COUNTERS    	0x01020070
+#define ID_3_CL6_RESET_COUNTERS    	0x01020071
+#define ID_3_CL7_RESET_COUNTERS    	0x01020072
+#define ID_3_CL8_RESET_COUNTERS    	0x01020073
+#define ID_3_CL9_RESET_COUNTERS    	0x01020074
+#define ID_3_CL10_RESET_COUNTERS    0x01020075
+#define ID_3_CL11_RESET_COUNTERS    0x01020076
+#define ID_3_CL12_RESET_COUNTERS    0x01020077
+#define ID_3_CL13_RESET_COUNTERS    0x01020078
+#define ID_3_CL14_RESET_COUNTERS    0x01020079
+#define ID_3_CL15_RESET_COUNTERS    0x0102007A
+#define ID_3_CL16_RESET_COUNTERS    0x0102007B
+
+/*Lines Reset counters*/
+#define ID_3_LN1_RESET_COUNTERS    	0x0102007C
+#define ID_3_LN2_RESET_COUNTERS    	0x0102007D
+
+/*APS parameters SET UID*/
+#define ID_3_AGG_SET_APS_MODE     			0x0102007E
+#define ID_3_AGG_SET_APS_PROT_CHANNEL     	0x01020080
+#define ID_3_AGG_SET_APS_REVERSE_MODE     	0x01020082
+#define ID_3_AGG_SET_APS_WTR     			0x01020084
+#define ID_3_AGG_SET_APS_HO     			0x01020086
+
+/* section 103 params*/
+#define ID_103_PORT_LN1_IN_INFO 	0x010A0000
+#define ID_103_PORT_LN1_IN_CAT 		0x010A0001
+#define ID_103_PORT_LN2_IN_INFO 	0x010A0002
+#define ID_103_PORT_LN2_IN_CAT 		0x010A0003
+
+#define ID_103_PORT_CL_1_IN_INFO 	0x010A0004
+#define ID_103_PORT_CL_1_IN_CAT 	0x010A0005
+#define ID_103_PORT_CL_2_IN_INFO 	0x010A0006
+#define ID_103_PORT_CL_2_IN_CAT 	0x010A0007
+#define ID_103_PORT_CL_3_IN_INFO 	0x010A0008
+#define ID_103_PORT_CL_3_IN_CAT 	0x010A0009
+#define ID_103_PORT_CL_4_IN_INFO 	0x010A000A
+#define ID_103_PORT_CL_4_IN_CAT 	0x010A000B
+#define ID_103_PORT_CL_5_IN_INFO 	0x010A000C
+#define ID_103_PORT_CL_5_IN_CAT 	0x010A000D
+#define ID_103_PORT_CL_6_IN_INFO 	0x010A000E
+#define ID_103_PORT_CL_6_IN_CAT 	0x010A000F
+#define ID_103_PORT_CL_7_IN_INFO 	0x010A0010
+#define ID_103_PORT_CL_7_IN_CAT 	0x010A0011
+#define ID_103_PORT_CL_8_IN_INFO 	0x010A0012
+#define ID_103_PORT_CL_8_IN_CAT 	0x010A0013
+#define ID_103_PORT_CL_9_IN_INFO 	0x010A0014
+#define ID_103_PORT_CL_9_IN_CAT 	0x010A0015
+#define ID_103_PORT_CL_10_IN_INFO 	0x010A0016
+#define ID_103_PORT_CL_10_IN_CAT 	0x010A0017
+#define ID_103_PORT_CL_11_IN_INFO 	0x010A0018
+#define ID_103_PORT_CL_11_IN_CAT 	0x010A0019
+#define ID_103_PORT_CL_12_IN_INFO 	0x010A001A
+#define ID_103_PORT_CL_12_IN_CAT 	0x010A001B
+#define ID_103_PORT_CL_13_IN_INFO 	0x010A001C
+#define ID_103_PORT_CL_13_IN_CAT 	0x010A001D
+#define ID_103_PORT_CL_14_IN_INFO 	0x010A001E
+#define ID_103_PORT_CL_14_IN_CAT 	0x010A001F
+#define ID_103_PORT_CL_15_IN_INFO 	0x010A0020
+#define ID_103_PORT_CL_15_IN_CAT 	0x010A0021
+#define ID_103_PORT_CL_16_IN_INFO 	0x010A0022
+#define ID_103_PORT_CL_16_IN_CAT 	0x010A0023
+
+/* section 4 params*/
+#define ID_4_BLOCK_TEMP_CMin      0x01030000
+#define ID_4_BLOCK_TEMP_WMin      0x01030001
+#define ID_4_BLOCK_TEMP_WMax      0x01030002
+#define ID_4_BLOCK_TEMP_CMax      0x01030003
+/*Clients output power CMIN*/
+#define ID_4_CL1_POUT_CMIN        0x01030004
+#define ID_4_CL2_POUT_CMIN        0x01030005
+#define ID_4_CL3_POUT_CMIN        0x01030006
+#define ID_4_CL4_POUT_CMIN        0x01030007
+#define ID_4_CL5_POUT_CMIN        0x01030008
+#define ID_4_CL6_POUT_CMIN        0x01030009
+#define ID_4_CL7_POUT_CMIN        0x0103000A
+#define ID_4_CL8_POUT_CMIN        0x0103000B
+#define ID_4_CL9_POUT_CMIN        0x0103000C
+#define ID_4_CL10_POUT_CMIN       0x0103000D
+#define ID_4_CL11_POUT_CMIN       0x0103000E
+#define ID_4_CL12_POUT_CMIN       0x0103000F
+#define ID_4_CL13_POUT_CMIN       0x01030010
+#define ID_4_CL14_POUT_CMIN       0x01030011
+#define ID_4_CL15_POUT_CMIN       0x01030012
+#define ID_4_CL16_POUT_CMIN       0x01030013
+/*Lines output power CMIN*/
+#define ID_4_LN1_POUT_CMIN		  0x01030014
+#define ID_4_LN2_POUT_CMIN		  0x01030015
+
+/*Clients output power WMIN*/
+#define	ID_4_CL1_POUT_WMIN        0x01030016
+#define	ID_4_CL2_POUT_WMIN        0x01030017
+#define	ID_4_CL3_POUT_WMIN        0x01030018
+#define	ID_4_CL4_POUT_WMIN        0x01030019
+#define	ID_4_CL5_POUT_WMIN        0x0103001A
+#define	ID_4_CL6_POUT_WMIN        0x0103001B
+#define	ID_4_CL7_POUT_WMIN        0x0103001C
+#define	ID_4_CL8_POUT_WMIN        0x0103001D
+#define	ID_4_CL9_POUT_WMIN        0x0103001E
+#define	ID_4_CL10_POUT_WMIN       0x0103001F
+#define	ID_4_CL11_POUT_WMIN       0x01030020
+#define	ID_4_CL12_POUT_WMIN       0x01030021
+#define	ID_4_CL13_POUT_WMIN       0x01030022
+#define	ID_4_CL14_POUT_WMIN       0x01030023
+#define	ID_4_CL15_POUT_WMIN       0x01030024
+#define	ID_4_CL16_POUT_WMIN       0x01030025
+/*Lines output power WMIN*/
+#define	ID_4_LN1_POUT_WMIN        0x01030026
+#define	ID_4_LN2_POUT_WMIN        0x01030027
+
+/*Clients output power WMAX*/
+#define	ID_4_CL1_POUT_WMAX        0x01030028
+#define	ID_4_CL2_POUT_WMAX        0x01030029
+#define	ID_4_CL3_POUT_WMAX        0x0103002A
+#define	ID_4_CL4_POUT_WMAX        0x0103002B
+#define	ID_4_CL5_POUT_WMAX        0x0103002C
+#define	ID_4_CL6_POUT_WMAX        0x0103002D
+#define	ID_4_CL7_POUT_WMAX        0x0103002E
+#define	ID_4_CL8_POUT_WMAX        0x0103002F
+#define	ID_4_CL9_POUT_WMAX        0x01030030
+#define	ID_4_CL10_POUT_WMAX       0x01030031
+#define	ID_4_CL11_POUT_WMAX       0x01030032
+#define	ID_4_CL12_POUT_WMAX       0x01030033
+#define	ID_4_CL13_POUT_WMAX       0x01030034
+#define	ID_4_CL14_POUT_WMAX       0x01030035
+#define	ID_4_CL15_POUT_WMAX       0x01030036
+#define	ID_4_CL16_POUT_WMAX       0x01030037
+/*Lines output power WMAX*/
+#define	ID_4_LN1_POUT_WMAX        0x01030038
+#define	ID_4_LN2_POUT_WMAX        0x01030039
+
+/*Clients output power CMAX*/
+#define	ID_4_CL1_POUT_CMAX        0x0103003A
+#define	ID_4_CL2_POUT_CMAX        0x0103003B
+#define	ID_4_CL3_POUT_CMAX        0x0103003C
+#define	ID_4_CL4_POUT_CMAX        0x0103003D
+#define	ID_4_CL5_POUT_CMAX        0x0103003E
+#define	ID_4_CL6_POUT_CMAX        0x0103003F
+#define	ID_4_CL7_POUT_CMAX        0x01030040
+#define	ID_4_CL8_POUT_CMAX        0x01030041
+#define	ID_4_CL9_POUT_CMAX        0x01030042
+#define	ID_4_CL10_POUT_CMAX       0x01030043
+#define	ID_4_CL11_POUT_CMAX       0x01030044
+#define	ID_4_CL12_POUT_CMAX       0x01030045
+#define	ID_4_CL13_POUT_CMAX       0x01030046
+#define	ID_4_CL14_POUT_CMAX       0x01030047
+#define	ID_4_CL15_POUT_CMAX       0x01030048
+#define	ID_4_CL16_POUT_CMAX       0x01030049
+/*Lines output power WMAX*/
+#define	ID_4_LN1_POUT_CMAX        0x0103004A
+#define	ID_4_LN2_POUT_CMAX        0x0103004B
+
+/*Clients input power CMIN*/
+#define ID_4_CL1_PIN_CMIN         0x0103004C
+#define ID_4_CL2_PIN_CMIN         0x0103004D
+#define ID_4_CL3_PIN_CMIN         0x0103004E
+#define ID_4_CL4_PIN_CMIN         0x0103004F
+#define ID_4_CL5_PIN_CMIN         0x01030050
+#define ID_4_CL6_PIN_CMIN         0x01030051
+#define ID_4_CL7_PIN_CMIN         0x01030052
+#define ID_4_CL8_PIN_CMIN         0x01030053
+#define ID_4_CL9_PIN_CMIN         0x01030054
+#define ID_4_CL10_PIN_CMIN        0x01030055
+#define ID_4_CL11_PIN_CMIN        0x01030056
+#define ID_4_CL12_PIN_CMIN        0x01030057
+#define ID_4_CL13_PIN_CMIN        0x01030058
+#define ID_4_CL14_PIN_CMIN        0x01030059
+#define ID_4_CL15_PIN_CMIN        0x0103005A
+#define ID_4_CL16_PIN_CMIN        0x0103005B
+/*Lines input power WMIN*/
+#define ID_4_LN1_PIN_CMIN         0x0103005C
+#define ID_4_LN2_PIN_CMIN         0x0103005D
+
+/*Clients input power WMIN*/
+#define	ID_4_CL1_PIN_WMIN         0x0103005E
+#define	ID_4_CL2_PIN_WMIN         0x0103005F
+#define	ID_4_CL3_PIN_WMIN         0x01030060
+#define	ID_4_CL4_PIN_WMIN         0x01030061
+#define	ID_4_CL5_PIN_WMIN         0x01030062
+#define	ID_4_CL6_PIN_WMIN         0x01030063
+#define	ID_4_CL7_PIN_WMIN         0x01030064
+#define	ID_4_CL8_PIN_WMIN         0x01030065
+#define	ID_4_CL9_PIN_WMIN         0x01030066
+#define	ID_4_CL10_PIN_WMIN        0x01030067
+#define	ID_4_CL11_PIN_WMIN        0x01030068
+#define	ID_4_CL12_PIN_WMIN        0x01030069
+#define	ID_4_CL13_PIN_WMIN        0x0103006A
+#define	ID_4_CL14_PIN_WMIN        0x0103006B
+#define	ID_4_CL15_PIN_WMIN        0x0103006C
+#define	ID_4_CL16_PIN_WMIN        0x0103006D
+/*Lines input power WMIN*/
+#define	ID_4_LN1_PIN_WMIN         0x0103006E
+#define	ID_4_LN2_PIN_WMIN         0x0103006F
+
+/*Clients input power WMAX*/
+#define	ID_4_CL1_PIN_WMAX         0x01030070
+#define	ID_4_CL2_PIN_WMAX         0x01030071
+#define	ID_4_CL3_PIN_WMAX         0x01030072
+#define	ID_4_CL4_PIN_WMAX         0x01030073
+#define	ID_4_CL5_PIN_WMAX         0x01030074
+#define	ID_4_CL6_PIN_WMAX         0x01030075
+#define	ID_4_CL7_PIN_WMAX         0x01030076
+#define	ID_4_CL8_PIN_WMAX         0x01030077
+#define	ID_4_CL9_PIN_WMAX         0x01030078
+#define	ID_4_CL10_PIN_WMAX        0x01030079
+#define	ID_4_CL11_PIN_WMAX        0x0103007A
+#define	ID_4_CL12_PIN_WMAX        0x0103007B
+#define	ID_4_CL13_PIN_WMAX        0x0103007C
+#define	ID_4_CL14_PIN_WMAX        0x0103007D
+#define	ID_4_CL15_PIN_WMAX        0x0103007E
+#define	ID_4_CL16_PIN_WMAX        0x0103007F
+/*Lines input power WMAX*/
+#define	ID_4_LN1_PIN_WMAX         0x01030080
+#define	ID_4_LN2_PIN_WMAX         0x01030081
+
+/*Clients input power CMAX*/
+#define	ID_4_CL1_PIN_CMAX         0x01030082
+#define	ID_4_CL2_PIN_CMAX         0x01030083
+#define	ID_4_CL3_PIN_CMAX         0x01030084
+#define	ID_4_CL4_PIN_CMAX         0x01030085
+#define	ID_4_CL5_PIN_CMAX         0x01030086
+#define	ID_4_CL6_PIN_CMAX         0x01030087
+#define	ID_4_CL7_PIN_CMAX         0x01030088
+#define	ID_4_CL8_PIN_CMAX         0x01030089
+#define	ID_4_CL9_PIN_CMAX         0x0103008A
+#define	ID_4_CL10_PIN_CMAX        0x0103008B
+#define	ID_4_CL11_PIN_CMAX        0x0103008C
+#define	ID_4_CL12_PIN_CMAX        0x0103008D
+#define	ID_4_CL13_PIN_CMAX        0x0103008E
+#define	ID_4_CL14_PIN_CMAX        0x0103008F
+#define	ID_4_CL15_PIN_CMAX        0x01030090
+#define	ID_4_CL16_PIN_CMAX        0x01030091
+/*Lines input power WMAX*/
+#define	ID_4_LN1_PIN_CMAX         0x01030092
+#define	ID_4_LN2_PIN_CMAX         0x01030093
+
+/*Lines fec load CMIN*/
+#define ID_4_LN1_FEC_LOAD_CMIN    0x01030094
+#define ID_4_LN2_FEC_LOAD_CMIN    0x01030095
+/*Lines fec load WMIN*/
+#define	ID_4_LN1_FEC_LOAD_WMIN    0x01030096
+#define	ID_4_LN2_FEC_LOAD_WMIN    0x01030097
+/*Lines fec load WMAX*/
+#define	ID_4_LN1_FEC_LOAD_WMAX    0x01030098
+#define	ID_4_LN2_FEC_LOAD_WMAX    0x01030099
+/*Lines fec load CMAX*/
+#define	ID_4_LN1_FEC_LOAD_CMAX    0x0103009A
+#define	ID_4_LN2_FEC_LOAD_CMAX    0x0103009B
+
+/*Clients sfp temp CMIN*/
+#define ID_4_CL1_SFP_TEMP_CMIN 	  0x0103009C
+#define ID_4_CL2_SFP_TEMP_CMIN 	  0x0103009D
+#define ID_4_CL3_SFP_TEMP_CMIN 	  0x0103009E
+#define ID_4_CL4_SFP_TEMP_CMIN 	  0x0103009F
+#define ID_4_CL5_SFP_TEMP_CMIN 	  0x01030100
+#define ID_4_CL6_SFP_TEMP_CMIN 	  0x01030101
+#define ID_4_CL7_SFP_TEMP_CMIN 	  0x01030102
+#define ID_4_CL8_SFP_TEMP_CMIN 	  0x01030103
+#define ID_4_CL9_SFP_TEMP_CMIN 	  0x01030104
+#define ID_4_CL10_SFP_TEMP_CMIN   0x01030105
+#define ID_4_CL11_SFP_TEMP_CMIN   0x01030106
+#define ID_4_CL12_SFP_TEMP_CMIN   0x01030107
+#define ID_4_CL13_SFP_TEMP_CMIN   0x01030108
+#define ID_4_CL14_SFP_TEMP_CMIN   0x01030109
+#define ID_4_CL15_SFP_TEMP_CMIN   0x0103010A
+#define ID_4_CL16_SFP_TEMP_CMIN   0x0103010B
+/*Lines sfp temp CMIN*/
+#define ID_4_LN1_SFP_TEMP_CMIN 	  0x0103010C
+#define ID_4_LN2_SFP_TEMP_CMIN 	  0x0103010D
+
+/*Clients sfp temp WMIN*/
+#define ID_4_CL1_SFP_TEMP_WMIN 	  0x0103010E
+#define ID_4_CL2_SFP_TEMP_WMIN 	  0x0103010F
+#define ID_4_CL3_SFP_TEMP_WMIN 	  0x01030110
+#define ID_4_CL4_SFP_TEMP_WMIN 	  0x01030111
+#define ID_4_CL5_SFP_TEMP_WMIN 	  0x01030112
+#define ID_4_CL6_SFP_TEMP_WMIN 	  0x01030113
+#define ID_4_CL7_SFP_TEMP_WMIN 	  0x01030114
+#define ID_4_CL8_SFP_TEMP_WMIN 	  0x01030115
+#define ID_4_CL9_SFP_TEMP_WMIN 	  0x01030116
+#define ID_4_CL10_SFP_TEMP_WMIN   0x01030117
+#define ID_4_CL11_SFP_TEMP_WMIN   0x01030118
+#define ID_4_CL12_SFP_TEMP_WMIN   0x01030119
+#define ID_4_CL13_SFP_TEMP_WMIN   0x0103011A
+#define ID_4_CL14_SFP_TEMP_WMIN   0x0103011B
+#define ID_4_CL15_SFP_TEMP_WMIN   0x0103011C
+#define ID_4_CL16_SFP_TEMP_WMIN   0x0103011D
+/*Lines sfp temp WMIN*/
+#define ID_4_LN1_SFP_TEMP_WMIN 	  0x0103011E
+#define ID_4_LN2_SFP_TEMP_WMIN 	  0x0103011F
+
+/*Clients sfp temp WMAX*/
+#define ID_4_CL1_SFP_TEMP_WMAX 	  0x01030120
+#define ID_4_CL2_SFP_TEMP_WMAX 	  0x01030121
+#define ID_4_CL3_SFP_TEMP_WMAX 	  0x01030122
+#define ID_4_CL4_SFP_TEMP_WMAX 	  0x01030123
+#define ID_4_CL5_SFP_TEMP_WMAX 	  0x01030124
+#define ID_4_CL6_SFP_TEMP_WMAX 	  0x01030125
+#define ID_4_CL7_SFP_TEMP_WMAX 	  0x01030126
+#define ID_4_CL8_SFP_TEMP_WMAX 	  0x01030127
+#define ID_4_CL9_SFP_TEMP_WMAX 	  0x01030128
+#define ID_4_CL10_SFP_TEMP_WMAX   0x01030129
+#define ID_4_CL11_SFP_TEMP_WMAX   0x0103012A
+#define ID_4_CL12_SFP_TEMP_WMAX   0x0103012B
+#define ID_4_CL13_SFP_TEMP_WMAX   0x0103012C
+#define ID_4_CL14_SFP_TEMP_WMAX   0x0103012D
+#define ID_4_CL15_SFP_TEMP_WMAX   0x0103012E
+#define ID_4_CL16_SFP_TEMP_WMAX   0x0103012F
+/*Lines sfp temp WMAX*/
+#define ID_4_LN1_SFP_TEMP_WMAX 	  0x01030130
+#define ID_4_LN2_SFP_TEMP_WMAX 	  0x01030131
+
+/*Clients sfp temp CMAX*/
+#define ID_4_CL1_SFP_TEMP_CMAX 	  0x01030132
+#define ID_4_CL2_SFP_TEMP_CMAX 	  0x01030133
+#define ID_4_CL3_SFP_TEMP_CMAX 	  0x01030134
+#define ID_4_CL4_SFP_TEMP_CMAX 	  0x01030135
+#define ID_4_CL5_SFP_TEMP_CMAX 	  0x01030136
+#define ID_4_CL6_SFP_TEMP_CMAX 	  0x01030137
+#define ID_4_CL7_SFP_TEMP_CMAX 	  0x01030138
+#define ID_4_CL8_SFP_TEMP_CMAX 	  0x01030139
+#define ID_4_CL9_SFP_TEMP_CMAX 	  0x0103013A
+#define ID_4_CL10_SFP_TEMP_CMAX   0x0103013B
+#define ID_4_CL11_SFP_TEMP_CMAX   0x0103013C
+#define ID_4_CL12_SFP_TEMP_CMAX   0x0103013D
+#define ID_4_CL13_SFP_TEMP_CMAX   0x0103013E
+#define ID_4_CL14_SFP_TEMP_CMAX   0x0103013F
+#define ID_4_CL15_SFP_TEMP_CMAX   0x01030140
+#define ID_4_CL16_SFP_TEMP_CMAX   0x01030141
+/*Lines sfp temp CMAX*/
+#define ID_4_LN1_SFP_TEMP_CMAX 	  0x01030142
+#define ID_4_LN2_SFP_TEMP_CMAX 	  0x01030143
+
+/* section 5 params*/
+#define ID_5_LED_PWR 		0x01040000
+#define ID_5_LED_STATUS 	0x01040001
+#define ID_5_LED_LN1_TX 	0x01040002
+#define ID_5_LED_LN1_RX 	0x01040003
+#define ID_5_LED_LN2_TX 	0x01040004
+#define ID_5_LED_LN2_RX 	0x01040005
+
+#define ID_5_LED_CL1_TX 	0x01040006
+#define ID_5_LED_CL1_RX 	0x01040007
+#define ID_5_LED_CL2_TX 	0x01040008
+#define ID_5_LED_CL2_RX 	0x01040009
+#define ID_5_LED_CL3_TX 	0x0104000A
+#define ID_5_LED_CL3_RX 	0x0104000B
+#define ID_5_LED_CL4_TX 	0x0104000C
+#define ID_5_LED_CL4_RX 	0x0104000D
+#define ID_5_LED_CL5_TX 	0x0104000E
+#define ID_5_LED_CL5_RX 	0x0104000F
+#define ID_5_LED_CL6_TX 	0x01040010
+#define ID_5_LED_CL6_RX 	0x01040011
+#define ID_5_LED_CL7_TX 	0x01040012
+#define ID_5_LED_CL7_RX 	0x01040013
+#define ID_5_LED_CL8_TX 	0x01040014
+#define ID_5_LED_CL8_RX 	0x01040015
+#define ID_5_LED_CL9_TX 	0x01040016
+#define ID_5_LED_CL9_RX 	0x01040017
+#define ID_5_LED_CL10_TX 	0x01040018
+#define ID_5_LED_CL10_RX 	0x01040019
+#define ID_5_LED_CL11_TX 	0x0104001A
+#define ID_5_LED_CL11_RX 	0x0104001B
+#define ID_5_LED_CL12_TX 	0x0104001C
+#define ID_5_LED_CL12_RX 	0x0104001D
+#define ID_5_LED_CL13_TX 	0x0104001E
+#define ID_5_LED_CL13_RX 	0x0104001F
+#define ID_5_LED_CL14_TX 	0x01040020
+#define ID_5_LED_CL14_RX 	0x01040021
+#define ID_5_LED_CL15_TX 	0x01040022
+#define ID_5_LED_CL15_RX 	0x01040023
+#define ID_5_LED_CL16_TX 	0x01040024
+#define ID_5_LED_CL16_RX 	0x01040025
+
+/* section 8 params*/
+/*Clients OTUES*/
+#define	ID_8_CL_1_OTU_ES         0x01070100
+#define	ID_8_CL_2_OTU_ES         0x01070101
+#define	ID_8_CL_3_OTU_ES         0x01070102
+#define	ID_8_CL_4_OTU_ES         0x01070103
+#define	ID_8_CL_5_OTU_ES         0x01070104
+#define	ID_8_CL_6_OTU_ES         0x01070105
+#define	ID_8_CL_7_OTU_ES         0x01070106
+#define	ID_8_CL_8_OTU_ES         0x01070107
+#define	ID_8_CL_9_OTU_ES         0x01070108
+#define	ID_8_CL_10_OTU_ES        0x01070109
+#define	ID_8_CL_11_OTU_ES        0x0107010A
+#define	ID_8_CL_12_OTU_ES        0x0107010B
+#define	ID_8_CL_13_OTU_ES        0x0107010C
+#define	ID_8_CL_14_OTU_ES        0x0107010D
+#define	ID_8_CL_15_OTU_ES        0x0107010E
+#define	ID_8_CL_16_OTU_ES        0x0107010F
+/*Lines OTUES*/
+#define ID_8_LN_1_OTU_ES     	 0x01070110
+#define ID_8_LN_2_OTU_ES     	 0x01070111
+
+/*Clients OTUSES*/
+#define	ID_8_CL_1_OTU_SES         0x01070112
+#define	ID_8_CL_2_OTU_SES         0x01070113
+#define	ID_8_CL_3_OTU_SES         0x01070114
+#define	ID_8_CL_4_OTU_SES         0x01070115
+#define	ID_8_CL_5_OTU_SES         0x01070116
+#define	ID_8_CL_6_OTU_SES         0x01070117
+#define	ID_8_CL_7_OTU_SES         0x01070118
+#define	ID_8_CL_8_OTU_SES         0x01070119
+#define	ID_8_CL_9_OTU_SES         0x0107011A
+#define	ID_8_CL_10_OTU_SES        0x0107011B
+#define	ID_8_CL_11_OTU_SES        0x0107011C
+#define	ID_8_CL_12_OTU_SES        0x0107011D
+#define	ID_8_CL_13_OTU_SES        0x0107011E
+#define	ID_8_CL_14_OTU_SES        0x0107011F
+#define	ID_8_CL_15_OTU_SES        0x01070120
+#define	ID_8_CL_16_OTU_SES        0x01070121
+/*Lines OTUSES*/
+#define ID_8_LN_1_OTU_SES     	  0x01070122
+#define ID_8_LN_2_OTU_SES     	  0x01070123
+
+/*Clients OTUBBE*/
+#define	ID_8_CL_1_OTU_BBE         0x01070124
+#define	ID_8_CL_2_OTU_BBE         0x01070125
+#define	ID_8_CL_3_OTU_BBE         0x01070126
+#define	ID_8_CL_4_OTU_BBE         0x01070127
+#define	ID_8_CL_5_OTU_BBE         0x01070128
+#define	ID_8_CL_6_OTU_BBE         0x01070129
+#define	ID_8_CL_7_OTU_BBE         0x0107012A
+#define	ID_8_CL_8_OTU_BBE         0x0107012B
+#define	ID_8_CL_9_OTU_BBE         0x0107012C
+#define	ID_8_CL_10_OTU_BBE        0x0107012D
+#define	ID_8_CL_11_OTU_BBE        0x0107012E
+#define	ID_8_CL_12_OTU_BBE        0x0107012F
+#define	ID_8_CL_13_OTU_BBE        0x01070130
+#define	ID_8_CL_14_OTU_BBE        0x01070131
+#define	ID_8_CL_15_OTU_BBE        0x01070132
+#define	ID_8_CL_16_OTU_BBE        0x01070133
+/*Lines OTUBBE*/
+#define ID_8_LN_1_OTU_BBE     	  0x01070134
+#define ID_8_LN_2_OTU_BBE     	  0x01070135
+
+/*Clients OTUUAS*/
+#define	ID_8_CL_1_OTU_UAS         0x01070136
+#define	ID_8_CL_2_OTU_UAS         0x01070137
+#define	ID_8_CL_3_OTU_UAS         0x01070138
+#define	ID_8_CL_4_OTU_UAS         0x01070139
+#define	ID_8_CL_5_OTU_UAS         0x0107013A
+#define	ID_8_CL_6_OTU_UAS         0x0107013B
+#define	ID_8_CL_7_OTU_UAS         0x0107013C
+#define	ID_8_CL_8_OTU_UAS         0x0107013D
+#define	ID_8_CL_9_OTU_UAS         0x0107013E
+#define	ID_8_CL_10_OTU_UAS        0x0107013F
+#define	ID_8_CL_11_OTU_UAS        0x01070140
+#define	ID_8_CL_12_OTU_UAS        0x01070141
+#define	ID_8_CL_13_OTU_UAS        0x01070142
+#define	ID_8_CL_14_OTU_UAS        0x01070143
+#define	ID_8_CL_15_OTU_UAS        0x01070144
+#define	ID_8_CL_16_OTU_UAS        0x01070145
+/*Lines OTUUAS*/
+#define ID_8_LN_1_OTU_UAS     	  0x01070146
+#define ID_8_LN_2_OTU_UAS     	  0x01070147
+
+/*Clients SDHES*/
+#define	ID_8_CL_1_SDH_ES          0x01070148
+#define	ID_8_CL_2_SDH_ES          0x01070149
+#define	ID_8_CL_3_SDH_ES          0x0107014A
+#define	ID_8_CL_4_SDH_ES          0x0107014B
+#define	ID_8_CL_5_SDH_ES          0x0107014C
+#define	ID_8_CL_6_SDH_ES          0x0107014D
+#define	ID_8_CL_7_SDH_ES          0x0107014E
+#define	ID_8_CL_8_SDH_ES          0x0107014F
+#define	ID_8_CL_9_SDH_ES          0x01070150
+#define	ID_8_CL_10_SDH_ES         0x01070151
+#define	ID_8_CL_11_SDH_ES         0x01070152
+#define	ID_8_CL_12_SDH_ES         0x01070153
+#define	ID_8_CL_13_SDH_ES         0x01070154
+#define	ID_8_CL_14_SDH_ES         0x01070155
+#define	ID_8_CL_15_SDH_ES         0x01070156
+#define	ID_8_CL_16_SDH_ES         0x01070157
+
+/*Clients SDHSES*/
+#define	ID_8_CL_1_SDH_SES         0x01070158
+#define	ID_8_CL_2_SDH_SES         0x01070159
+#define	ID_8_CL_3_SDH_SES         0x0107015A
+#define	ID_8_CL_4_SDH_SES         0x0107015B
+#define	ID_8_CL_5_SDH_SES         0x0107015C
+#define	ID_8_CL_6_SDH_SES         0x0107015D
+#define	ID_8_CL_7_SDH_SES         0x0107015E
+#define	ID_8_CL_8_SDH_SES         0x0107015F
+#define	ID_8_CL_9_SDH_SES         0x01070160
+#define	ID_8_CL_10_SDH_SES        0x01070161
+#define	ID_8_CL_11_SDH_SES        0x01070162
+#define	ID_8_CL_12_SDH_SES        0x01070163
+#define	ID_8_CL_13_SDH_SES        0x01070164
+#define	ID_8_CL_14_SDH_SES        0x01070165
+#define	ID_8_CL_15_SDH_SES        0x01070166
+#define	ID_8_CL_16_SDH_SES        0x01070167
+
+/*Clients SDHBBE*/
+#define ID_8_CL_1_SDH_BBE         0x01070168
+#define ID_8_CL_2_SDH_BBE         0x01070169
+#define ID_8_CL_3_SDH_BBE         0x0107016A
+#define ID_8_CL_4_SDH_BBE         0x0107016B
+#define ID_8_CL_5_SDH_BBE         0x0107016C
+#define ID_8_CL_6_SDH_BBE         0x0107016D
+#define ID_8_CL_7_SDH_BBE         0x0107016E
+#define ID_8_CL_8_SDH_BBE         0x0107016F
+#define ID_8_CL_9_SDH_BBE         0x01070170
+#define ID_8_CL_10_SDH_BBE        0x01070171
+#define ID_8_CL_11_SDH_BBE        0x01070172
+#define ID_8_CL_12_SDH_BBE        0x01070173
+#define ID_8_CL_13_SDH_BBE        0x01070174
+#define ID_8_CL_14_SDH_BBE        0x01070175
+#define ID_8_CL_15_SDH_BBE        0x01070176
+#define ID_8_CL_16_SDH_BBE        0x01070177
+
+/*Clients SDHUAS*/
+#define	ID_8_CL_1_SDH_UAS         0x01070178
+#define	ID_8_CL_2_SDH_UAS         0x01070179
+#define	ID_8_CL_3_SDH_UAS         0x0107017A
+#define	ID_8_CL_4_SDH_UAS         0x0107017B
+#define	ID_8_CL_5_SDH_UAS         0x0107017C
+#define	ID_8_CL_6_SDH_UAS         0x0107017D
+#define	ID_8_CL_7_SDH_UAS         0x0107017E
+#define	ID_8_CL_8_SDH_UAS         0x0107017F
+#define	ID_8_CL_9_SDH_UAS         0x01070180
+#define	ID_8_CL_10_SDH_UAS        0x01070181
+#define	ID_8_CL_11_SDH_UAS        0x01070182
+#define	ID_8_CL_12_SDH_UAS        0x01070183
+#define	ID_8_CL_13_SDH_UAS        0x01070184
+#define	ID_8_CL_14_SDH_UAS        0x01070185
+#define	ID_8_CL_15_SDH_UAS        0x01070186
+#define	ID_8_CL_16_SDH_UAS        0x01070187
+
+/*Clients ETH_RX_PKTS*/
+#define	ID_8_CL_1_ETH_RX_PKTS    0x01070188
+#define	ID_8_CL_2_ETH_RX_PKTS    0x01070189
+#define	ID_8_CL_3_ETH_RX_PKTS    0x0107018A
+#define	ID_8_CL_4_ETH_RX_PKTS    0x0107018B
+#define	ID_8_CL_5_ETH_RX_PKTS    0x0107018C
+#define	ID_8_CL_6_ETH_RX_PKTS    0x0107018D
+#define	ID_8_CL_7_ETH_RX_PKTS    0x0107018E
+#define	ID_8_CL_8_ETH_RX_PKTS    0x0107018F
+#define	ID_8_CL_9_ETH_RX_PKTS    0x01070190
+#define	ID_8_CL_10_ETH_RX_PKTS   0x01070191
+#define	ID_8_CL_11_ETH_RX_PKTS   0x01070192
+#define	ID_8_CL_12_ETH_RX_PKTS   0x01070193
+#define	ID_8_CL_13_ETH_RX_PKTS   0x01070194
+#define	ID_8_CL_14_ETH_RX_PKTS   0x01070195
+#define	ID_8_CL_15_ETH_RX_PKTS   0x01070196
+#define	ID_8_CL_16_ETH_RX_PKTS   0x01070197
+
+/*Clients ETH_RX_OCTS*/
+#define	ID_8_CL_1_ETH_RX_OCTS    0x01070198
+#define	ID_8_CL_2_ETH_RX_OCTS    0x01070199
+#define	ID_8_CL_3_ETH_RX_OCTS    0x0107019A
+#define	ID_8_CL_4_ETH_RX_OCTS    0x0107019B
+#define	ID_8_CL_5_ETH_RX_OCTS    0x0107019C
+#define	ID_8_CL_6_ETH_RX_OCTS    0x0107019D
+#define	ID_8_CL_7_ETH_RX_OCTS    0x0107019E
+#define	ID_8_CL_8_ETH_RX_OCTS    0x01070201
+#define	ID_8_CL_9_ETH_RX_OCTS    0x01070202
+#define	ID_8_CL_10_ETH_RX_OCTS   0x01070203
+#define	ID_8_CL_11_ETH_RX_OCTS   0x01070204
+#define	ID_8_CL_12_ETH_RX_OCTS   0x01070205
+#define	ID_8_CL_13_ETH_RX_OCTS   0x01070206
+#define	ID_8_CL_14_ETH_RX_OCTS   0x01070207
+#define	ID_8_CL_15_ETH_RX_OCTS   0x01070208
+#define	ID_8_CL_16_ETH_RX_OCTS   0x01070209
+
+/*Clients ETH_RX_ERRS*/
+#define	ID_8_CL_1_ETH_RX_ERRS    0x0107020A
+#define	ID_8_CL_2_ETH_RX_ERRS    0x0107020B
+#define	ID_8_CL_3_ETH_RX_ERRS    0x0107020C
+#define	ID_8_CL_4_ETH_RX_ERRS    0x0107020D
+#define	ID_8_CL_5_ETH_RX_ERRS    0x0107020E
+#define	ID_8_CL_6_ETH_RX_ERRS    0x0107020F
+#define	ID_8_CL_7_ETH_RX_ERRS    0x01070210
+#define	ID_8_CL_8_ETH_RX_ERRS    0x01070211
+#define	ID_8_CL_9_ETH_RX_ERRS    0x01070212
+#define	ID_8_CL_10_ETH_RX_ERRS   0x01070213
+#define	ID_8_CL_11_ETH_RX_ERRS   0x01070214
+#define	ID_8_CL_12_ETH_RX_ERRS   0x01070215
+#define	ID_8_CL_13_ETH_RX_ERRS   0x01070216
+#define	ID_8_CL_14_ETH_RX_ERRS   0x01070217
+#define	ID_8_CL_15_ETH_RX_ERRS   0x01070218
+#define	ID_8_CL_16_ETH_RX_ERRS   0x01070219
+
+/*Clients ETH_TX_PKTS*/
+#define	ID_8_CL_1_ETH_TX_PKTS    0x0107021A
+#define	ID_8_CL_2_ETH_TX_PKTS    0x0107021B
+#define	ID_8_CL_3_ETH_TX_PKTS    0x0107021C
+#define	ID_8_CL_4_ETH_TX_PKTS    0x0107021D
+#define	ID_8_CL_5_ETH_TX_PKTS    0x0107021E
+#define	ID_8_CL_6_ETH_TX_PKTS    0x0107021F
+#define	ID_8_CL_7_ETH_TX_PKTS    0x01070220
+#define	ID_8_CL_8_ETH_TX_PKTS    0x01070221
+#define	ID_8_CL_9_ETH_TX_PKTS    0x01070222
+#define	ID_8_CL_10_ETH_TX_PKTS   0x01070223
+#define	ID_8_CL_11_ETH_TX_PKTS   0x01070224
+#define	ID_8_CL_12_ETH_TX_PKTS   0x01070225
+#define	ID_8_CL_13_ETH_TX_PKTS   0x01070226
+#define	ID_8_CL_14_ETH_TX_PKTS   0x01070227
+#define	ID_8_CL_15_ETH_TX_PKTS   0x01070228
+#define	ID_8_CL_16_ETH_TX_PKTS   0x01070229
+
+/*Clients ETH_TX_OCTS*/
+#define	ID_8_CL_1_ETH_TX_OCTS    0x0107022A
+#define	ID_8_CL_2_ETH_TX_OCTS    0x0107022B
+#define	ID_8_CL_3_ETH_TX_OCTS    0x0107022C
+#define	ID_8_CL_4_ETH_TX_OCTS    0x0107022D
+#define	ID_8_CL_5_ETH_TX_OCTS    0x0107022E
+#define	ID_8_CL_6_ETH_TX_OCTS    0x0107022F
+#define	ID_8_CL_7_ETH_TX_OCTS    0x01070230
+#define	ID_8_CL_8_ETH_TX_OCTS    0x01070231
+#define	ID_8_CL_9_ETH_TX_OCTS    0x01070232
+#define	ID_8_CL_10_ETH_TX_OCTS   0x01070233
+#define	ID_8_CL_11_ETH_TX_OCTS   0x01070234
+#define	ID_8_CL_12_ETH_TX_OCTS   0x01070235
+#define	ID_8_CL_13_ETH_TX_OCTS   0x01070236
+#define	ID_8_CL_14_ETH_TX_OCTS   0x01070237
+#define	ID_8_CL_15_ETH_TX_OCTS   0x01070238
+#define	ID_8_CL_16_ETH_TX_OCTS   0x01070239
+
+#endif
